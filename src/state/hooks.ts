@@ -75,7 +75,7 @@ export const usePriceBnbBusd = (): BigNumber => {
 }
 
 export const usePriceCakeBusd = (): BigNumber => {
-  const pid = 1 // MILK-BUSD LP
+  const pid = 1 // GRAVITY-BUSD LP
   const farm = useFarmFromPid(pid)
 
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO

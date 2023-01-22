@@ -8,7 +8,7 @@ export const approve = async (lpContract, masterChefContract, account) => {
 }
 
 export const stake = async (masterChefContract, pid, amount, account) => {
-  // Hardcoded hack by CryptoWhatElse for pool number 0 which has only 9 decimals (COW)
+  // Hardcoded hack by CryptoWhatElse for pool number 0 which has only 9 decimals (GETH)
   const decimals = pid === 3 ? 9 : 18
 
   console.log('decimals', decimals)
@@ -41,7 +41,7 @@ export const sousStakeBnb = async (sousChefContract, amount, account) => {
 }
 
 export const unstake = async (masterChefContract, pid, amount, account) => {
-  // Hardcoded hack by CryptoWhatElse for pool number 0 which has only 9 decimals (COW)
+  // Hardcoded hack by CryptoWhatElse for pool number 0 which has only 9 decimals (GETH)
   const decimals = pid === 3 ? 9 : 18
 
   return masterChefContract.methods

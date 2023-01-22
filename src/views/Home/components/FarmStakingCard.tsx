@@ -77,12 +77,12 @@ const FarmedStakingCard = () => {
         </Heading>
 
         <Block>
-          <Label>{TranslateString(544, 'COFFEE to Harvest')}</Label>
+          <Label>{TranslateString(544, 'GRAVITY to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum} />
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'COFFEE in Wallet')}</Label>
+          <Label>{TranslateString(546, 'GRAVITY in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
         </Block>
@@ -95,7 +95,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting COFFEE')
+                ? TranslateString(548, 'Collecting GRAVITY')
                 : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (

@@ -56,10 +56,10 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="15px" mt="20px" color="secondary">
-        Welcome to Coffee Beans Swap
+        <Heading as="h1" size="xl" mb="15px" mt="20px" color="primary">
+            GRAVITY ETH SWAP 
         </Heading>
-        <Text>Earn $SRT simply by staking your COFFEE</Text>
+        <Text>Earn GRAVITY simply by staking your $GETH</Text>
       </Hero>
       <div>
         <Cards>

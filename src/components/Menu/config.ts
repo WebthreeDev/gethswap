@@ -11,12 +11,12 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: '$COW',
-        href: 'https://pancakeswap.finance/swap?outputCurrency=0x8b6fa031c7d2e60fbfe4e663ec1b8f37df1ba483',
+        label: '$GETH',
+        href: 'https://pancakeswap.finance/swap?outputCurrency=GravityETH',
       },
       {
-        label: '$MILK',
-        href: 'https://pancakeswap.finance/swap?outputCurrency=0xe5bd6c5b1c2df8f499847a545838c09e45f4a262&inputCurrency=0x8b6fa031c7d2e60fbfe4e663ec1b8f37df1ba483',
+        label: '$GRAVITY',
+        href: 'https://pancakeswap.finance/swap?outputCurrency=GravityETH&inputCurrency=GravityETH',
       },
     ],
   },
@@ -51,11 +51,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/CashCowProject',
+        href: 'https://github.com/GravityETH',
       },
       {
         label: 'Whitepaper',
-        href: 'https://cashcowprotocol.gitbook.io/cashcow/',
+        href: 'https://GravityETH.gitbook.io/GravityETH/',
       },
     ],
   },
@@ -66,11 +66,11 @@ const config: MenuEntry[] = [
   //   items: [
   //     {
   //       label: 'Github',
-  //       href: 'https://github.com/CashCowProject',
+  //       href: 'https://github.com/GravityETH',
   //     },
   //     {
   //       label: 'Whitepaper',
-  //       href: 'https://cashcowprotocol.gitbook.io/cashcow/',
+  //       href: 'https://GravityETH.gitbook.io/cashcow/',
   //     },
   //   ],
   // },
@@ -78,17 +78,17 @@ const config: MenuEntry[] = [
   //   label: 'Partnerships/IFO',
   //   icon: 'GooseIcon',
   //   href:
-  //     'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+  //     'https://docs.google.com/forms/d/e//viewform?usp=sf_link',
   // },
   // {
   //   label: 'Audit by Hacken',
   //   icon: 'AuditIcon',
-  //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+  //   href: 'https://www..com/files/hackenAudit.pdf',
   // },
   // {
   //   label: 'Audit by CertiK',
   //   icon: 'AuditIcon',
-  //   href: 'https://certik.org/projects/goose-finance',
+  //   href: 'https://certik.org/projects/goe-finance',
   // },
 ]
 

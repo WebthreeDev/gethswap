@@ -94,15 +94,15 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
     <Page>
       <Heading as="h1" size="lg" color="primary" mb="25px" style={{ textAlign: 'center' }}>
         {tokenMode
-          ? TranslateString(10002, 'Stake tokens to earn COFFEE')
-          : TranslateString(320, 'Stake LP tokens to earn $COFFEE')}
+          ? TranslateString(10002, 'Stake tokens to earn GRAVITY')
+          : TranslateString(320, 'Stake LP tokens to earn $GRAVITY')}
       </Heading>
       <Heading as="h2" color="secondary" mb="12px" style={{ textAlign: 'center' }}>
-        REMEMBER $SRT Token has a 10% transaction fee that affects both deposits and withdrawals
+        REMEMBER $GETH Token has a 10% transaction fee that affects both deposits and withdrawals
       </Heading>
       
       <Heading as="h4" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        All deposit fees will be used for SHARK Buybacks and Burns
+        All deposit fees will be used for GRAVITY Buybacks and Burns
       </Heading>
 
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />

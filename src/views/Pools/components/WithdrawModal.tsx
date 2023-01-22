@@ -15,7 +15,7 @@ interface WithdrawModalProps {
 }
 
 const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max, tokenName = '', decimals = 18 }) => {
-  // CryptoWhatElse added the decimals param so we can also work with the 9 decimals for COW
+  // CryptoWhatElse added the decimals param so we can also work with the 9 decimals for GETH
   const [val, setVal] = useState('')
   const [pendingTx, setPendingTx] = useState(false)
   const TranslateString = useI18n()
